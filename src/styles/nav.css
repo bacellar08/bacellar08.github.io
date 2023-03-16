@@ -1,0 +1,28 @@
+.navbar {
+    font-family: var(--font-mono);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    box-shadow: 0px 15px 40px -20px rgba(0,0,0,0.3);
+}
+
+.logo {
+    height: 50px;
+}
+
+.topics {
+    display: flex;
+    align-items: center;
+}
+
+.topics li {
+    list-style: none;
+    color: var(--title-Color);
+    font-size: 0.75rem;
+    margin-right: 40px;
+}
+
+.topics .btn {
+    padding: 10px 20px;
+}

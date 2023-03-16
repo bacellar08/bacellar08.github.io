@@ -1,0 +1,34 @@
+.social-container {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 65%;
+    left: 50px;
+    height: 100%;
+
+}
+
+.sc2 {
+    top: 76%;
+    left: 90%;
+}
+
+.social-icon {
+    color: var(--title-Color);
+    margin-bottom: 20px;
+}
+
+.social-line {
+    width: 0;
+    height: 100%;
+    border-color: var(--secondaryColor);
+}
+
+.social-email {
+    transform: rotate(90deg);
+    margin-bottom: 120px;
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    font-weight: 100;
+    color: var(--title-Color);
+}
