@@ -7,15 +7,15 @@ const Social = () => {
   return (
     <div>
       <div className="social-container">
-          <i className="social-icon"><GitHub/></i>
-          <i className="social-icon"><Instagram/></i>
+          <a className="social-icon" href="https://github.com/bacellar08"><i className="social-icon"><GitHub/></i></a>
+          <a className="social-icon" href="https://www.linkedin.com/in/alexandre-bacellarr/"><i><LinkedIn/></i></a>
+          <a className="social-icon" href="https://www.instagram.com/bacellar08/"><i className="social-icon"><Instagram/></i></a>
           <i className="social-icon"><Twitter/></i>
-          <i className="social-icon"><LinkedIn/></i>
-          <i className="social-icon"><WhatsApp/></i>
+          <a className="social-icon" href="https://wa.me/+5571997010339"><i className="social-icon"><WhatsApp/></i></a>
           <hr className="social-line"/>
       </div>
       <div className="social-container sc2">
-          <p className="social-email">alexandre.bacellar@gmail.com</p>
+          <a style={{textDecoration: "none"}} href="mailto:alexandre.bacellar@gmail.com"><p className="social-email" >alexandre.bacellar@gmail.com</p></a>
           <hr className="social-line"/>
       </div>
     </div>

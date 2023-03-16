@@ -31,4 +31,10 @@
     font-size: 0.8rem;
     font-weight: 100;
     color: var(--title-Color);
+    text-decoration: none;
+    transition: color 1s ease 0s;
+}
+
+.social-email:hover {
+    color: var(--primaryColor);
 }

@@ -9,6 +9,17 @@
 .project-img {
     height: 300px;
     position: absolute;
+    z-index: 0;
+    transition: z-index 1s linear 0s;
+    transition: transform .2s linear 0s;
+}
+
+.project-img:hover {
+    transform: scale(1.15);
+    z-index: 2;
+}
+
+.img-space {
     z-index: -1;
 }
 
@@ -47,6 +58,7 @@
     padding: 20px 20px;
     line-height: normal;
     margin: 20px 0;
+    z-index: 1;
 
 }
 
@@ -64,7 +76,13 @@
     justify-content: space-between;
 }
 
+.project-icons i {
+    padding-top: 20px;
+    color: var(--title-Color);
+
+}
+
 .project-icons i:hover {
-    cursor: pointer;
     color: var(--primaryColor);
+    cursor: pointer;
 }

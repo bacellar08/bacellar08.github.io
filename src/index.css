@@ -21,4 +21,20 @@ body {
     border-radius: 4px;
     border: 1px solid var(--primaryColor);
     font-family: var(--font-mono);
+    transition: background-color 1s ease 0s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: var(--bg-color);
+    background-color: var(--primaryColor);
+}
+
+i {
+    transition: color 1s ease 0s;
+}
+
+i:hover {
+    color: var(--primaryColor);
+    cursor: pointer;
 }
