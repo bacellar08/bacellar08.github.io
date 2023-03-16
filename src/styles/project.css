@@ -1,8 +1,10 @@
 .project-container {
     position: relative;
     display: flex;
-    margin: 0 auto;
-    padding: 2rem 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 0.5rem;
+    box-shadow: 0px 15px 40px -20px rgba(0,0,0,0.3);
 }
 .project-img {
     height: 300px;
@@ -37,9 +39,11 @@
 }
 
 .project-description {
-    background-color: #112240;
+    background-color: rgba(17, 34, 64, 0.9);
+    color: var(--title-Color);
+    font-weight: 300;
     border-radius: 5px;
-    width: 450px;
+    width: 460px;
     padding: 20px 20px;
     line-height: normal;
     margin: 20px 0;
@@ -52,4 +56,15 @@
     color: var(--secondaryColor);
     padding-bottom: 20px;
     font-size: 0.8rem;
+}
+
+.project-icons {
+    width: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-icons i:hover {
+    cursor: pointer;
+    color: var(--primaryColor);
 }

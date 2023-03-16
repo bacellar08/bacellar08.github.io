@@ -25,3 +25,9 @@
     padding: 0 20px;
 
 }
+
+.work-container p {
+    line-height: normal;
+    padding-bottom: 10px;
+    color: var(--title-Color);
+}
