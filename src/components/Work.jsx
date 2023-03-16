@@ -13,6 +13,7 @@ const Work = () => {
         </div>
 
         <Project
+        alignItems='flex-end'
         src={SimpleCalculator}
         title='Calculator'
         type='Personal Project'
@@ -27,6 +28,8 @@ const Work = () => {
             }
         />
         <Project
+        direction='row-reverse'
+        alignItems='flex-start'
         src={SimonGame}
         title='Simon Game'
         type='Academic Project'

@@ -3,6 +3,7 @@ import '../styles/about.css'
 import ProfilePic from '../img/profilepic.png'
 
 const About = () => {
+
   return (
     <div className='about-container'>
         <div className="about-info">

@@ -4,7 +4,7 @@
     margin: 0 auto;
     padding: 2rem 0;
 }
-.project-container img {
+.project-img {
     height: 300px;
     position: absolute;
     z-index: -1;
@@ -13,7 +13,7 @@
 .project-info {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    /* align-items: flex-end; */
 }
 
 .project-type {
@@ -31,6 +31,9 @@
 
 .project-techs {
     display: flex;
+    width: 250px;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .project-description {
@@ -39,15 +42,14 @@
     width: 450px;
     padding: 20px 20px;
     line-height: normal;
-    text-align: end;
     margin: 20px 0;
 
 }
 
 .project-techs li {
     list-style: none;
-    padding-left: 20px;
     font-family: var(--font-mono);
     color: var(--secondaryColor);
+    padding-bottom: 20px;
     font-size: 0.8rem;
 }
