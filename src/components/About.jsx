@@ -1,6 +1,6 @@
 import { ArrowRight } from '@mui/icons-material'
 import '../styles/about.css'
-import ProfilePic from '../img/pp.png'
+import ProfilePic from '../img/profilepic.png'
 
 const About = () => {
   return (
