@@ -1,11 +1,35 @@
-import { ArrowRight } from '@mui/icons-material'
-import '../styles/about.css'
-import ProfilePic from '../img/profilepic.png'
+import { ArrowRight } from '@mui/icons-material';
+import '../styles/about.css';
+import ProfilePic from '../img/profilepic.png';
+import { useEffect } from 'react';
 
 const About = () => {
 
+  useEffect(() => {
+    const elements = document.querySelectorAll('.fade-in');
+
+    function checkVisibility() {
+      for (let i = 0; i < elements.length; i++) {
+        const element = elements[i];
+        const rect = element.getBoundingClientRect();
+        const windowHeight = window.innerHeight;
+        const threshold = windowHeight * 0.5; // Trigger animation when element is halfway in view
+
+        if (rect.top <= threshold && rect.bottom >= threshold) {
+          element.classList.add('visible');
+        }
+      }
+    }
+
+    window.addEventListener('scroll', checkVisibility);
+
+    return () => {
+      window.removeEventListener('scroll', checkVisibility);
+    };
+  }, []);
+
   return (
-    <div className='about-container'>
+    <div className='about-container fade-in'>
         <div className="about-info">
         <div className="about-title">
             <span style={{fontFamily: 'var(--font-mono)', fontWeight: '200', fontSize: '1.2rem'}}>01. </span>
