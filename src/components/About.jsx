@@ -9,16 +9,15 @@ const About = () => {
     const elements = document.querySelectorAll('.fade-in');
 
     function checkVisibility() {
-      for (let i = 0; i < elements.length; i++) {
-        const element = elements[i];
+      elements.forEach(element => {
         const rect = element.getBoundingClientRect();
         const windowHeight = window.innerHeight;
-        const threshold = windowHeight * 0.5; // Trigger animation when element is halfway in view
-
+        const threshold = windowHeight * 0.5;
+    
         if (rect.top <= threshold && rect.bottom >= threshold) {
           element.classList.add('visible');
         }
-      }
+      });
     }
 
     window.addEventListener('scroll', checkVisibility);
@@ -29,9 +28,9 @@ const About = () => {
   }, []);
 
   return (
-    <div className='about-container fade-in'>
+    <div className='about-container container fade-in'>
         <div className="about-info">
-        <div className="about-title">
+        <div className="about-title title-box">
             <span style={{fontFamily: 'var(--font-mono)', fontWeight: '200', fontSize: '1.2rem'}}>01. </span>
             <h2>About me</h2>
             <hr/>

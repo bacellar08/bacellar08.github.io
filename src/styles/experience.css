@@ -1,0 +1,91 @@
+.experience-container {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    
+}
+
+.experience-title {
+    margin-left: 170px;
+}
+
+.tablist-container {
+    padding: 50px 0;
+    display: flex;
+    align-items: flex-start;
+    line-height: normal;
+    margin: 0 auto;
+    width: 600px;
+    height: 200px;
+}
+
+.tablist-labels {    
+    display: flex;
+    flex-direction: column;
+}
+
+.tablist-labels button {
+    font-family: var(--font-mono);
+    color: var(--secondaryColor);
+    background-color: transparent;
+    transition: background-color 0.5s ease-in-out 0s;
+    border: none;
+    width: 150px;
+    height: 50px;
+    text-align: left;
+    font-weight: 100;
+    font-size: .8rem;
+    padding: 0 20px;
+
+}
+.tablist-labels button.active {
+    border-left: 1px solid var(--primaryColor);
+    background-color: rgba(17, 34, 64, 0.9);
+}
+
+.tablist-labels button:hover {
+    cursor: pointer;
+    color: var(--primaryColor);
+    background-color: rgba(17, 34, 64, 0.9);
+}
+
+
+.tablist-line {
+    height: 100% !important;
+    width: 0 !important;
+    opacity: 10% !important;
+}
+
+.job-role {
+    color: var(--title-Color);
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding-top: 20px;
+    padding: 0 0 10px 50px;
+}
+
+.job-role span {
+    /* font-family: var(--font-mono); */
+    font-weight: 500;
+}
+
+.job-period {
+    font-family: var(--font-mono);
+    font-size: 0.9rem;
+    padding: 0 0 25px 50px;
+}
+
+.job-description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 0 25px 50px;
+}
+
+.descripton-paragraph {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}

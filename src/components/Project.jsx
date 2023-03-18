@@ -8,16 +8,15 @@ const Project = (p) => {
     const elements = document.querySelectorAll('.fade-in');
 
     function checkVisibility() {
-      for (let i = 0; i < elements.length; i++) {
-        const element = elements[i];
+      elements.forEach(element => {
         const rect = element.getBoundingClientRect();
         const windowHeight = window.innerHeight;
-        const threshold = windowHeight * 0.5; // Trigger animation when element is halfway in view
-
+        const threshold = windowHeight * 0.5;
+    
         if (rect.top <= threshold && rect.bottom >= threshold) {
           element.classList.add('visible');
         }
-      }
+      });
     }
 
     window.addEventListener('scroll', checkVisibility);

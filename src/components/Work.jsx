@@ -8,9 +8,9 @@ import DiceGame from '../img/dice-game.png'
 
 const Work = () => {
   return (
-    <div className='work-container' style={{width: '50%', margin: '0 auto'}}>
-        <div className="work-title" style={{}}>
-            <span style={{fontFamily: 'var(--font-mono)', fontWeight: '200', fontSize: '1.2rem'}}>01. </span>
+    <div className='work-container container fade-in' style={{width: '50%', margin: '0 auto'}}>
+        <div className="work-title title-box" style={{}}>
+            <span style={{fontFamily: 'var(--font-mono)', fontWeight: '200', fontSize: '1.2rem'}}>03. </span>
             <h2>Some Things I've built</h2>
             <hr/>
         </div>

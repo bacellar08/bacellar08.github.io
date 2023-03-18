@@ -2,30 +2,6 @@
     padding: 0 0 400px 0;
 }
 
-.work-title {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding-bottom: 40px;
-}
-
-.work-container hr {
-    width: 30%;
-    height: 0;
-    border-color: var(--secondaryColor);
-    margin: 0;
-}
-
-.work-container h2 {
-    font-size: 24px;
-    color: var(--title-Color);
-    font-weight: 700;
-    font-size: 1.8rem;
-    white-space: nowrap;
-    padding: 0 20px;
-
-}
-
 .work-container p {
     line-height: normal;
     padding-bottom: 10px;
