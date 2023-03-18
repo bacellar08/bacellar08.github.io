@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5bd93444.css",
-    "main.js": "/static/js/main.f7875d3d.js",
+    "main.css": "/static/css/main.a74939c7.css",
+    "main.js": "/static/js/main.ca8b9ee9.js",
     "static/media/profilepic.png": "/static/media/profilepic.8e4b9a739f5984078444.png",
     "static/media/tindog.png": "/static/media/tindog.46777725f01b59ab5629.png",
     "static/media/simple-calculator.png": "/static/media/simple-calculator.75792f47b390f97b83c7.png",
@@ -9,11 +9,11 @@
     "static/media/dice-game.png": "/static/media/dice-game.2764203bccdadb63aa73.png",
     "static/media/simon-game.png": "/static/media/simon-game.6830a827b66cb543cb11.png",
     "index.html": "/index.html",
-    "main.5bd93444.css.map": "/static/css/main.5bd93444.css.map",
-    "main.f7875d3d.js.map": "/static/js/main.f7875d3d.js.map"
+    "main.a74939c7.css.map": "/static/css/main.a74939c7.css.map",
+    "main.ca8b9ee9.js.map": "/static/js/main.ca8b9ee9.js.map"
   },
   "entrypoints": [
-    "static/css/main.5bd93444.css",
-    "static/js/main.f7875d3d.js"
+    "static/css/main.a74939c7.css",
+    "static/js/main.ca8b9ee9.js"
   ]
 }
