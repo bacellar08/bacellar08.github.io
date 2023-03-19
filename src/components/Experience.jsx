@@ -14,6 +14,15 @@ const tabs = [
       </>
        }/>},
 
+    { label: 'L.F Marketing',
+      content: <Job role='Art Director' company='L.F Marketing' period='October 2018 - May 2019'
+      description={
+      <>
+      <p>Creation of arts for social media, logos, visual identity.</p>
+      <>Test</>
+      </>
+      }/> },
+
     { label: 'Lego',
       content: <Job role='Art Director' company='Lego' period='August 2017 - June 2018'
       description={
@@ -22,14 +31,7 @@ const tabs = [
       </>
       }/> },
 
-    { label: 'L.F Marketing',
-      content: <Job role='Art Director' company='L.F Marketing' period='October 2018 - May 2019'
-      description={
-        <>
-        <p>Creation of arts for social media, logos, visual identity.</p>
-        <>Test</>
-        </>
-        }/> },
+    
   ]
         
       

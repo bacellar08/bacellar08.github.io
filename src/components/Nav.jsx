@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import '../styles/nav.css';
 import NavLogo from '../img/logo-02-01.png'
+import Resume from './Resume';
 
 const Nav = () => {
   const [showNav, setShowNav] = useState(true);
@@ -33,7 +34,7 @@ const Nav = () => {
         <li>
           <span>04. </span>Contact
         </li>
-        <button className='btn'>Resume</button>
+        <Resume/>
       </div>
     </div>
   );
