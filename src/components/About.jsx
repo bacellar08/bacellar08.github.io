@@ -28,7 +28,7 @@ const About = () => {
   }, []);
 
   return (
-    <div className='about-container container fade-in'>
+    <div className='about-container container fade-in' id='about'>
         <div className="about-info">
         <div className="about-title title-box">
             <span style={{fontFamily: 'var(--font-mono)', fontWeight: '200', fontSize: '1.2rem'}}>01. </span>

@@ -37,7 +37,7 @@ const tabs = [
       
 
   return (
-    <div className='experience-container container fade-in' style={{width: '50%', margin: '0 auto'}}>
+    <div className='experience-container container fade-in' id='experience' style={{width: '50%', margin: '0 auto'}}>
         <div className="experience-title title-box">
             <span style={{fontFamily: 'var(--font-mono)', fontWeight: '200', fontSize: '1.2rem'}}>02. </span>
             <h2>Where I’ve Worked</h2>
