@@ -1,10 +1,11 @@
 import '../styles/resume.css'
+import ResumeFile from '../img/Alexandre+Bacellar+-+Resume+2023+Updated.pdf'
 
 const MyResume = () => {
 
     const downloadResume = () => {
 
-        console.log("Downloading resume");
+        console.log('Downloading file...')
       };
 
   return (
@@ -81,7 +82,7 @@ editing, animation and image processing.</li>
 </ul>
 </div>
 
-<button className='btn' onClick={downloadResume}>Download</button>
+<a href={ResumeFile} download><button className='btn' onClick={downloadResume}>Download</button></a>
 </></div>
   )
 }

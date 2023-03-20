@@ -1,7 +1,6 @@
 
 
 .about-container {
-    /* padding: 300px 0 0 0; */
     width: 1000px;
     margin: 0 auto;
     display: flex;
@@ -79,4 +78,51 @@
     top: -48%;
     left: 17%;
     z-index: -1;
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .about-container {
+        width: 1000px !important;
+        box-sizing: border-box;
+        padding: 20em 4em !important;
+        flex-direction: column;
+        align-items: start !important;
+        justify-content: flex-start !important;
+        font-size: 1em;
+        
+    }
+
+    .about-title {
+        padding-bottom: 7em !important;
+    }
+
+    .about-container hr {
+        width: 100% !important;
+    }
+
+    .img-bg {
+        display: none;
+    }
+
+    .about-title h2 {
+        font-size: 4em !important;
+    }
+
+    .about-title span {
+        font-size: 4em !important;
+    }
+
+    .about-container p {
+        box-sizing: border-box;
+        line-height: 1.5em;
+        font-size: 2.5em;
+        word-wrap: break-word;
+
+    }
+    
+    .about-skills {
+        font-size: 2em;
+    }
 }
