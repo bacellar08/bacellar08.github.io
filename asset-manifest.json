@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.cbdf1f05.css",
-    "main.js": "/static/js/main.fe4b84e1.js",
+    "main.css": "/static/css/main.fb9a3915.css",
+    "main.js": "/static/js/main.c62a4c42.js",
     "static/media/profilepic.png": "/static/media/profilepic.8e4b9a739f5984078444.png",
     "static/media/tindog.png": "/static/media/tindog.46777725f01b59ab5629.png",
     "static/media/simple-calculator.png": "/static/media/simple-calculator.75792f47b390f97b83c7.png",
     "static/media/drum-kit.png": "/static/media/drum-kit.9fa3325844df0b91301a.png",
     "static/media/dice-game.png": "/static/media/dice-game.2764203bccdadb63aa73.png",
+    "static/media/Alexandre+Bacellar+-+Resume+2023+Updated.pdf": "/static/media/Alexandre+Bacellar+-+Resume+2023+Updated.155f8bcfb74ea97b9e5a.pdf",
     "static/media/simon-game.png": "/static/media/simon-game.6830a827b66cb543cb11.png",
     "index.html": "/index.html",
-    "main.cbdf1f05.css.map": "/static/css/main.cbdf1f05.css.map",
-    "main.fe4b84e1.js.map": "/static/js/main.fe4b84e1.js.map"
+    "main.fb9a3915.css.map": "/static/css/main.fb9a3915.css.map",
+    "main.c62a4c42.js.map": "/static/js/main.c62a4c42.js.map"
   },
   "entrypoints": [
-    "static/css/main.cbdf1f05.css",
-    "static/js/main.fe4b84e1.js"
+    "static/css/main.fb9a3915.css",
+    "static/js/main.c62a4c42.js"
   ]
 }
