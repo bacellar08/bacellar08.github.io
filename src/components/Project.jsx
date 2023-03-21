@@ -1,4 +1,5 @@
 import { GitHub, Launch } from '@mui/icons-material'
+import { useMediaQuery } from '@mui/material';
 import { useEffect } from 'react';
 import '../styles/project.css'
 
@@ -25,6 +26,10 @@ const Project = (p) => {
       window.removeEventListener('scroll', checkVisibility);
     };
   }, []);
+
+  const isMobile = useMediaQuery('(max-width: 480px)')
+
+  console.log(isMobile)
 
 
   return (

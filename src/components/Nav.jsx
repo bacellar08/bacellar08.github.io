@@ -3,6 +3,7 @@ import '../styles/nav.css';
 import NavLogo from '../img/logo-02-01.png'
 import Resume from './Resume';
 
+
 const Nav = (props) => {
   const [showNav, setShowNav] = useState(true);
   const [prevScrollPos, setPrevScrollPos] = useState(0);
@@ -46,6 +47,7 @@ const Nav = (props) => {
         </li>
         <Resume/>
       </div>
+
     </div>
   );
 };

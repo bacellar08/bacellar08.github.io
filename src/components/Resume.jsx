@@ -13,7 +13,7 @@ function Resume() {
 
   return (
     <div>
-      <button className='btn' onClick={toggleModal}>Resume</button>
+      <button className='btn resume-btn' onClick={toggleModal}>Resume</button>
       <Modal isOpen={showModal} onRequestClose={toggleModal}>
         <div className='resume-content'>
           <MyResume style={{content: {padding: '0'}}}/>

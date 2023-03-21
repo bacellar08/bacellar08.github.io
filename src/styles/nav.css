@@ -55,3 +55,34 @@
 .hidden {
     display: none;
 }
+
+@media screen and (max-width: 480px) {
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .topics {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .topics li {
+        padding-bottom: 50px;
+        margin: 0;
+        font-size: 40px;
+        font-weight: 100;
+        white-space: nowrap;
+    }
+    .logo {
+        height: 200px;
+        padding-bottom: 100px;
+    }
+
+    .resume-btn {
+        font-size: 40px;
+        border-radius: 10px !important;
+        margin-bottom: 50px;
+        margin-left: 50px;
+    }
+}

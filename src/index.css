@@ -95,13 +95,8 @@ i:hover {
 
 @media screen and (max-width: 480px) {
 
-
-    .navbar {
-        display: none;
-    }
-    
-    .work-container {
-        display: none;
+    p {
+        font-size: 40px;
     }
 
     .social-container {
@@ -111,7 +106,7 @@ i:hover {
     .intro-container {
         display: flex;
         flex-direction: column;
-        padding: 400px 50px !important;
+        padding: 800px 50px !important;
         
     }
 
@@ -136,6 +131,13 @@ i:hover {
         border-radius: 10px;
         border-width: 3px;
         margin-top: 150px;
+    }
+
+    .scroll-btn {
+        width: 150px;
+        height: 150px;
+        background-color: transparent;
+        left: 85%;
     }
     
 }

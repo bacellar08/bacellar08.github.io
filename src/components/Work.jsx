@@ -36,13 +36,13 @@ const Work = () => {
         />
         
         <Project
-        gitLink='https://github.com/bacellar08/Simon-Game'
-        link='https://bacellar08.github.io/Simon-Game/'
         direction='row-reverse'
         alignItems='flex-start'
         src={SimonGame}
         title='Simon Game'
         type='Academic Project'
+        gitLink='https://github.com/bacellar08/Simon-Game'
+        link='https://bacellar08.github.io/Simon-Game/'
         info='A "Simon Says" game application using HTML, CSS, JavaScript, jQuery, and Bootstrap was a challenging yet rewarding project that allowed me to showcase my skills in web development.'
         techs={
             <>
