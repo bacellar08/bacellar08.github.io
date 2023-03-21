@@ -89,3 +89,24 @@
     justify-content: center;
     padding-bottom: 20px;
 }
+
+@media screen and (max-width: 480px) {
+    .experience-container {
+        width: 100% !important;
+        padding: 150px 50px;
+        
+    }
+    
+    .experience-title {
+        margin-left: 170px;
+    }
+    
+    .tablist-container {
+        flex-direction: column;
+    }
+
+    .tablist-labels {
+        display: flex !important;
+
+    }
+}

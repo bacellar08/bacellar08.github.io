@@ -24,8 +24,7 @@ body {
 
 .container {
     padding: 150px 0;
-    width: 62.5em;
-    margin: 0 auto;
+    width: 1000px;
 }
 
 .container hr {
@@ -96,41 +95,47 @@ i:hover {
 
 @media screen and (max-width: 480px) {
 
+
+    .navbar {
+        display: none;
+    }
+    
+    .work-container {
+        display: none;
+    }
+
     .social-container {
         display: none;
     }
 
     .intro-container {
-        box-sizing: border-box;
         display: flex;
         flex-direction: column;
-        width: 62.5em !important;
-        padding: 20em 4em !important;
-        word-wrap: break-word;
+        padding: 400px 50px !important;
         
     }
 
     .span {
-        font-size: 3em;
+        font-size: 50px;
     }
 
     .short-resume {
         width: 100% ;
-        line-height: 1.5em;
-        font-size: 2.5em;
+        line-height: 60px;
+        font-size: 40px;
         word-wrap: break-word;
     }
 
     .title {
-        font-size: 5.5em;
+        font-size: 90px;
     }
 
     .calltoaction-btn {
-        border-radius: 0.4em;
+        font-size: 40px;
+        padding: 50px;
+        border-radius: 10px;
         border-width: 3px;
-        font-size: 2.5em;
-        font-weight: 100;
-        padding: 1em 2em;
+        margin-top: 150px;
     }
     
 }
