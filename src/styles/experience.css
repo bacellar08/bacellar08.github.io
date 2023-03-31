@@ -90,11 +90,12 @@
     padding-bottom: 20px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1024px) {
     .experience-container {
-        width: 1000px !important;
+        box-sizing: border-box !important;
+        width: 100% !important;
         height: 1000px;
-        margin: 0 !important;
+        /* margin: 0 !important; */
         padding: 150px 50px !important;
         
     }
@@ -116,21 +117,21 @@
 
     .job-role {
         padding-top: 50px;
-        font-size: 50px;
+        /* font-size: 50px; */
     }
 
     .job-period {
-        font-size: 35px;
+        /* font-size: 35px; */
         padding-bottom: 60px;
     }
     
-    .experience-title h2 {
+    /* .experience-title h2 {
         font-size: 70px !important;
-    }
+    } */
 
-    .experience-title span {
+    /* .experience-title span {
         font-size: 70px !important;
-    }
+    } */
 
     .tablist-labels {
         flex-direction: row;
@@ -144,7 +145,7 @@
         white-space: nowrap;
         width: 100%;
         padding-bottom: 20px;
-        font-size: 40px;
+        /* font-size: 40px; */
 
     }
 

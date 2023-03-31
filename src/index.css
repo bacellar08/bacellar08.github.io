@@ -73,7 +73,7 @@ i:hover {
 
 .scroll-btn {
     color: var(--primaryColor);
-    background-color: var(--bg-color);
+    background-color: transparent;
     border-radius: 4px;
     border: 1px solid var(--primaryColor);
     font-family: var(--font-mono);
@@ -93,49 +93,44 @@ i:hover {
 
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1024px) {
 
-    p {
-        font-size: 40px;
-    }
+
+    /* p {
+        font-size: 18px;
+    } */
 
     .social-container {
         display: none;
     }
 
     .intro-container {
+        box-sizing: border-box;
+        width: 100% !important;
         display: flex;
         flex-direction: column;
-        padding: 800px 50px !important;
+        padding: 150px 50px !important;
         
     }
 
     .span {
-        font-size: 50px;
+        font-size: 18px;
     }
 
     .short-resume {
-        width: 100% ;
-        line-height: 60px;
-        font-size: 40px;
+        width: 100%;
+        line-height: 1.5rem;
+        /* font-size: 18px; */
         word-wrap: break-word;
     }
 
     .title {
-        font-size: 90px;
-    }
-
-    .calltoaction-btn {
-        font-size: 40px;
-        padding: 50px;
-        border-radius: 10px;
-        border-width: 3px;
-        margin-top: 150px;
+        font-size: 30px;
     }
 
     .scroll-btn {
-        width: 150px;
-        height: 150px;
+        /* width: 150px;
+        height: 150px; */
         background-color: transparent;
         left: 85%;
     }
