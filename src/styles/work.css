@@ -1,0 +1,9 @@
+.work-container {
+    padding: 0 0 400px 0;
+}
+
+.work-container p {
+    line-height: normal;
+    padding-bottom: 10px;
+    color: var(--title-Color);
+}
