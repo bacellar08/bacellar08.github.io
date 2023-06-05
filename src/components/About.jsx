@@ -52,7 +52,7 @@ const About = () => {
             </div>
             <div>
             <li><i><ArrowRight/></i>React</li>
-            <li><i><ArrowRight/></i>C#</li>
+            <li><i><ArrowRight/></i>Next.js</li>
             <li><i><ArrowRight/></i>TypeScript</li>
             </div>
         </ul>

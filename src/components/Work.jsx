@@ -5,6 +5,7 @@ import SimonGame from '../img/simon-game.png'
 import TinDog from '../img/tindog.png'
 import DrumKit from '../img/drum-kit.png'
 import DiceGame from '../img/dice-game.png'
+import ReactCalculator from '../img/react-calculator.png'
 
 const Work = () => {
   return (
@@ -76,20 +77,21 @@ const Work = () => {
 
       
           <Project
-          gitLink='https://github.com/bacellar08/Drum-Kit'
-          link='https://bacellar08.github.io/Drum-Kit/'
+          gitLink='https://github.com/bacellar08/React-Calculator'
+          link='https://bacellar08.github.io/React-Calculator/'
           direction='row-reverse'
           alignItems='flex-start'
-          src={DrumKit}
-          title='Drum Kit'
-          type='Academic Project'
-          info="An interactive Drum Kit application created using HTML, CSS, and JavaScript. The application allows users to simulate playing a virtual drum set by clicking on the drum kit elements or using their computer keyboard. The project's main focus was on the use of JavaScript event listeners to handle user input."
+          src={ReactCalculator}
+          title='React Calculator'
+          type='Personal Project'
+          info="A simple calculator using ReactJS inspired by the iOS calculator. It was very important to understand the basics of React. "
           techs={
               <>
               <li>VS Code</li>
               <li>HTML</li>
               <li>CSS</li>
               <li>JavaScript</li>
+              <li>React</li>
               </>
           }
           />
@@ -112,6 +114,26 @@ const Work = () => {
                 </>
               }
         />
+
+
+<Project
+          gitLink='https://github.com/bacellar08/Drum-Kit'
+          link='https://bacellar08.github.io/Drum-Kit/'
+          direction='row-reverse'
+          alignItems='flex-start'
+          src={DrumKit}
+          title='Drum Kit'
+          type='Academic Project'
+          info="An interactive Drum Kit application created using HTML, CSS, and JavaScript. The application allows users to simulate playing a virtual drum set by clicking on the drum kit elements or using their computer keyboard. The project's main focus was on the use of JavaScript event listeners to handle user input."
+          techs={
+              <>
+              <li>VS Code</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              </>
+          }
+          />
 
     </div>
   )
