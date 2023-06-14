@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.cae0b335.css",
-    "main.js": "/static/js/main.4988fcac.js",
+    "main.js": "/static/js/main.8acf024a.js",
+    "static/media/doutor-nature.png": "/static/media/doutor-nature.d03007da76ed5f7faa52.png",
     "static/media/profilepic.png": "/static/media/profilepic.c72f2d06df13d8c463b9.png",
-    "static/media/tindog.png": "/static/media/tindog.46777725f01b59ab5629.png",
-    "static/media/simple-calculator.png": "/static/media/simple-calculator.75792f47b390f97b83c7.png",
     "static/media/react-calculator.png": "/static/media/react-calculator.141cff4b141c8f0941dc.png",
-    "static/media/drum-kit.png": "/static/media/drum-kit.9fa3325844df0b91301a.png",
-    "static/media/dice-game.png": "/static/media/dice-game.2764203bccdadb63aa73.png",
+    "static/media/tindog.png": "/static/media/tindog.78ca03ffe5791fd0a745.png",
+    "static/media/simple-calculator.png": "/static/media/simple-calculator.f442ebe659e17091f4c1.png",
+    "static/media/drum-kit.png": "/static/media/drum-kit.8e6b03542f08870cb251.png",
+    "static/media/dice-game.png": "/static/media/dice-game.cc9dd40bae80c45af832.png",
     "static/media/Alexandre+Bacellar+-+Resume+2023+Updated.pdf": "/static/media/Alexandre+Bacellar+-+Resume+2023+Updated.155f8bcfb74ea97b9e5a.pdf",
-    "static/media/simon-game.png": "/static/media/simon-game.6830a827b66cb543cb11.png",
+    "static/media/simon-game.png": "/static/media/simon-game.54ce02a45506bced7f6d.png",
     "index.html": "/index.html",
     "main.cae0b335.css.map": "/static/css/main.cae0b335.css.map",
-    "main.4988fcac.js.map": "/static/js/main.4988fcac.js.map"
+    "main.8acf024a.js.map": "/static/js/main.8acf024a.js.map"
   },
   "entrypoints": [
     "static/css/main.cae0b335.css",
-    "static/js/main.4988fcac.js"
+    "static/js/main.8acf024a.js"
   ]
 }
