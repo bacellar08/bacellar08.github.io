@@ -6,6 +6,7 @@ import TinDog from '../img/tindog.png'
 import DrumKit from '../img/drum-kit.png'
 import DiceGame from '../img/dice-game.png'
 import ReactCalculator from '../img/react-calculator.png'
+import DoutorNature from '../img/doutor-nature.png'
 
 const Work = () => {
   return (
@@ -116,7 +117,7 @@ const Work = () => {
         />
 
 
-<Project
+        <Project
           gitLink='https://github.com/bacellar08/Drum-Kit'
           link='https://bacellar08.github.io/Drum-Kit/'
           direction='row-reverse'
@@ -134,6 +135,28 @@ const Work = () => {
               </>
           }
           />
+
+        <Project
+        gitLink='https://github.com/bacellar08/Doutor-Nature-main'
+        link='https://bacellar08.github.io/Doutor-Nature-main/'
+        textAlign='end'
+        alignItems='flex-end'
+        src={DoutorNature}
+        title='Doutor Nature Landing Page'
+        type='Academic Project'
+        info="Landing Page for the Doutor Nature company."
+        techs={
+                <>
+                <li>VS Code</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Bootstrap</li>
+                <li>JavaScript</li>
+                </>
+              }
+        />
+
+
 
     </div>
   )
