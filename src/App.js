@@ -1,4 +1,5 @@
 import About from './components/About'
+import Burger from './components/Burger'
 import Experience from './components/Experience'
 import Introduction from './components/Introduction'
 import Nav from './components/Nav'
@@ -14,6 +15,7 @@ const App = () => {
     <div className='portfolio' style={{background: '#0A192F', height: '100vh'}}>
       <Social/>
       <Nav  item1='about' item2='experience' item3='work' item4='contact'/>
+      <Burger />
       <Introduction/>
       <About/>
       <Experience/>
