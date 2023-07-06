@@ -34,9 +34,9 @@ const MyResume = () => {
 <ul>
 <li><span>The Complete 2023 Web Development Bootcamp - App Brewery - Udemy</span> - Hours: 65,5 hours.</li>
 <li><span>React: developing with JavaScript - Alura</span> - Hours: 14 hours.</li>
-<li><span>HTML5 and CSS3 - Alura</span> - Hours: 32 hours.</li>
+<li><span>HTML5 and CSS3 Degree - Alura</span> - Hours: 35 hours.</li>
 <li><span>JAVASCRIPT - Curso em Vídeo</span> - Hours: 40 hours.</li>
-<li><span>Bootstrap 4: creating a Responsive Landing Page - Alura</span> - Hours: 08 hours.</li>
+<li><span>Front-End Degree - Alura</span> - Hours: 115 hours.</li>
 </ul>
 </div>
 
@@ -53,8 +53,9 @@ const MyResume = () => {
 <h2>Professional Experiences</h2>
 <h3>Informind</h3>
 <ul>
-<li>Position: Art Director</li>
+<li>Position: Art Director / Web Developer</li>
 <li>Period: August 2020 - November 2021.</li>
+<li>Creation and development of landing pages.</li>
 <li>Photography, editing and image capturing. Creation of logos and visual identity. Creation of arts for social media.</li>
 </ul>
 
