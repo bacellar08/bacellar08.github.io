@@ -1,6 +1,6 @@
 import { ArrowRight } from '@mui/icons-material';
 import '../styles/about.css';
-import ProfilePic from '../img/profilepic.png';
+import ProfilePic from '../img/profilepic.jpeg';
 import { useEffect } from 'react';
 
 const About = () => {
@@ -35,11 +35,7 @@ const About = () => {
             <h2>About me</h2>
             <hr/>
         </div>
-        <p>Hello, I'm Alexandre Bacellar, a front-end developer passionate about creating amazing and interactive web interfaces. With more than <span>7 years of experience in graphic design</span>, I've <span>transitioned into a web development career</span> and have worked on various projects for companies in different sectors.</p>
-
-        <p>I'm currently studying Systems Analysis and Development, and have skills in <span>HTML, CSS, JavaScript, React</span>, and other web development technologies. I'm always eager to improve my skills and learn new technologies.</p>
-
-        <p>I believe that clean and intuitive design is essential to creating a memorable <span>user experience</span>. I always seek to understand users' needs and apply best web development practices to create quality products.</p>
+        <p>Passionate <span>front-end developer</span> dedicated to creating incredible and interactive web interfaces. With <span>over 7 years of experience in graphic design</span>, I transitioned to a career in web development. Currently, I am studying <span>Analysis and Systems Development</span> to enhance my skills in web development technologies. I am actively <span>seeking opportunities</span> to establish my presence in the job market as a developer, always ready to learn and grow professionally.</p>
 
         <p>In this portfolio, you'll find some of my previous projects and work, as well as information about my skills and professional experience. Thank you for visiting my page, and feel free to <span>contact me</span> to discuss possible projects or job opportunities.</p>
 
@@ -47,13 +43,15 @@ const About = () => {
         <ul className='about-skills'>
             <div>
             <li><i><ArrowRight/></i>HTML5</li>
-            <li><i><ArrowRight/></i>CSS3</li>
-            <li><i><ArrowRight/></i>JavaScript (ES6+)</li>
+            <li><i><ArrowRight/></i>CSS</li>
+            <li><i><ArrowRight/></i>JavaScript</li>
+            <li><i><ArrowRight/></i>Node.js</li>
             </div>
             <div>
             <li><i><ArrowRight/></i>React</li>
             <li><i><ArrowRight/></i>Next.js</li>
             <li><i><ArrowRight/></i>TypeScript</li>
+            <li><i><ArrowRight/></i>SQL</li>
             </div>
         </ul>
         </div>

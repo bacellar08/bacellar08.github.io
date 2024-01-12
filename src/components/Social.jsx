@@ -11,7 +11,7 @@ const Social = () => {
           <a className="social-icon" href="https://www.linkedin.com/in/alexandre-bacellarr/"><i><LinkedIn/></i></a>
           <a className="social-icon" href="https://www.instagram.com/bacellar08/"><i className="social-icon"><Instagram/></i></a>
           <i className="social-icon"><Twitter/></i>
-          <a className="social-icon" href="https://wa.me/+5571997010339"><i className="social-icon"><WhatsApp/></i></a>
+          <a className="social-icon" href="https://wa.me/+5571992715588"><i className="social-icon"><WhatsApp/></i></a>
           <hr className="social-line"/>
       </div>
       <div className="social-container sc2">

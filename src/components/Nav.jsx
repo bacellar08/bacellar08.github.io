@@ -45,7 +45,6 @@ const Nav = (props) => {
         <li  onClick={() => scrollToSection(props.item4)}>
           <span>04. </span>Contact
         </li>
-        <Resume/>
       </div>
 
     </div>

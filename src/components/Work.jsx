@@ -79,7 +79,7 @@ const Work = () => {
       
           <Project
           gitLink='https://github.com/bacellar08/React-Calculator'
-          link='https://bacellar08.github.io/React-Calculator/'
+          link='https://react-calculator-five-pi.vercel.app'
           direction='row-reverse'
           alignItems='flex-start'
           src={ReactCalculator}
