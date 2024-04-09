@@ -7,10 +7,10 @@ const Experience = () => {
 
 const tabs = [
   { label: 'Informind',
-  content: <Job role='Web Developer' company='Informind' period='June 2021 - June 2022'
+  content: <Job role='Web Developer' company='Informind' period='June 2021 - Present'
   description={
   <>      
-  <p>Creation and development of landing pages.</p><>Test</>
+  <p>Creation and development of landing pages and web applications.</p><>Test</>
   </>
    }/>},
     { label: 'Informind',
