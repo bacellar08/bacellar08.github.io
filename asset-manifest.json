@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.dc5856b0.css",
-    "main.js": "/static/js/main.273ed76b.js",
+    "main.js": "/static/js/main.bbf2ff5a.js",
     "static/media/doutor-nature.png": "/static/media/doutor-nature.d03007da76ed5f7faa52.png",
     "static/media/profilepic.jpeg": "/static/media/profilepic.0c3e3a4ec5ca8ff6df1d.jpeg",
     "static/media/react-calculator.png": "/static/media/react-calculator.141cff4b141c8f0941dc.png",
@@ -13,10 +13,10 @@
     "static/media/simon-game.png": "/static/media/simon-game.54ce02a45506bced7f6d.png",
     "index.html": "/index.html",
     "main.dc5856b0.css.map": "/static/css/main.dc5856b0.css.map",
-    "main.273ed76b.js.map": "/static/js/main.273ed76b.js.map"
+    "main.bbf2ff5a.js.map": "/static/js/main.bbf2ff5a.js.map"
   },
   "entrypoints": [
     "static/css/main.dc5856b0.css",
-    "static/js/main.273ed76b.js"
+    "static/js/main.bbf2ff5a.js"
   ]
 }
