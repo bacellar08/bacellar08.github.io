@@ -6,7 +6,9 @@ const Introduction = () => {
         <div className="intro-container container">
         <p className='span font-mono'>Hi, my name is</p>
         <h1 className='title'>Alexandre Bacellar. <span className='sub-title'>I'm a Front-end Developer</span></h1>
-        <p className='short-resume'>I'm a former graphic designer with a passion for front-end development. While I don't have professional experience in this field yet, I'm eager to apply my design skills and technical knowledge to a role in front-end development. I'm specializing in building (and occasionally designing) exceptional digital experiences. Currently, I'm focused on learning Next.js at <span>Alura</span>.</p>
+        <p className='short-resume'> Formerly a graphic designer, I've spent the last three years immersing myself in front-end development, evolving into a proficient full-stack developer. Equipped with a diverse skill set, I specialize in crafting user interfaces and architecting backend solutions. Proficient in Next.js, React, and various backend technologies like Node. </p>
+        <p className='short-resume'>
+        Please be aware that this portfolio may contain outdated information as it has not been recently updated. Due to current time constraints, I haven't had the opportunity to refresh its content. However, it still serves as a representation of my past work and skills. I appreciate your understanding and patience. If you have any questions or would like to discuss my recent projects and experiences further, please don't hesitate to reach out directly.</p>
         <a href='https://www.linkedin.com/in/alexandre-bacellarr/'><button  className='calltoaction-btn btn'> Get in touch!</button></a>
       </div>
     </div>

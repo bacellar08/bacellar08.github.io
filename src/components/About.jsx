@@ -35,22 +35,28 @@ const About = () => {
             <h2>About me</h2>
             <hr/>
         </div>
-        <p>Passionate <span>front-end developer</span> dedicated to creating incredible and interactive web interfaces. With <span>over 7 years of experience in graphic design</span>, I transitioned to a career in web development. Currently, I am studying <span>Analysis and Systems Development</span> to enhance my skills in web development technologies. I am actively <span>seeking opportunities</span> to establish my presence in the job market as a developer, always ready to learn and grow professionally.</p>
-
-        <p>In this portfolio, you'll find some of my previous projects and work, as well as information about my skills and professional experience. Thank you for visiting my page, and feel free to <span>contact me</span> to discuss possible projects or job opportunities.</p>
+        <p>My journey began in <span>graphic design</span>, and since then, I have
+          combined my experience with enhancing my skills as a <span>programmer</span>,
+          focusing especially on <span>React</span> to create scalable and efficient state
+          management applications. I use libraries such as <span>Tailwind CSS</span> and <span>Material UI</span> to build responsive interfaces. I am proficient in Node.js and both relational and non-relational databases. My primary
+          development stack is <span>MERN (MongoDB, Express, React, Node).</span> Currently, I am delving into the use of <span>Next.js</span> and integrating <span>TypeScript</span> to ensure safer code.
+          Additionally, I have knowledge in mobile development with <span>React
+          Native</span> and experience with WordPress. I am fluent in English and
+          am always seeking opportunities to expand my knowledge and
+          improve my skills.</p>
 
         <p>Here are a few technologies I’ve been working with recently:</p>
         <ul className='about-skills'>
             <div>
-            <li><i><ArrowRight/></i>HTML5</li>
-            <li><i><ArrowRight/></i>CSS</li>
-            <li><i><ArrowRight/></i>JavaScript</li>
-            <li><i><ArrowRight/></i>Node.js</li>
+            <li><i><ArrowRight/></i>TypeScript</li>
+            <li><i><ArrowRight/></i>Tailwind</li>
+            <li><i><ArrowRight/></i>MongoDB</li>
+            <li><i><ArrowRight/></i>Node</li>
             </div>
             <div>
             <li><i><ArrowRight/></i>React</li>
-            <li><i><ArrowRight/></i>Next.js</li>
-            <li><i><ArrowRight/></i>TypeScript</li>
+            <li><i><ArrowRight/></i>Next</li>
+            <li><i><ArrowRight/></i>Vue</li>
             <li><i><ArrowRight/></i>SQL</li>
             </div>
         </ul>
